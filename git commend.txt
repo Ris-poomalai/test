@@ -8,9 +8,4 @@ git push -u origin [branch name]	Push changes to remote repository (and remember
 
 
 git remote add origin ssh://git@github.com/[username]/[repository-name].git	Add a remote repository
-git branch -M main		 rename the current branch to "main"
-
-
-git branch [branch name]	Create a new branch
-git branch -d [branch name]	Delete a branch
-git pull origin [branch name]	Pull changes from remote repository
+git branch -M main		 rename the current branch to "main pull clone
