@@ -1,0 +1,16 @@
+git init	Initialize a local Git repository
+git status	Check status
+git add [file-name]	Add a file to the staging area
+git commit -m "[commit message]"	Commit changes
+git branch -M main
+git remote add origin [commit path]
+git push -u origin [branch name]	Push changes to remote repository (and remember the branch)
+
+
+git remote add origin ssh://git@github.com/[username]/[repository-name].git	Add a remote repository
+git branch -M main		 rename the current branch to "main"
+
+
+git branch [branch name]	Create a new branch
+git branch -d [branch name]	Delete a branch
+git pull origin [branch name]	Pull changes from remote repository
